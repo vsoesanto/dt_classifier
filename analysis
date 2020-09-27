@@ -1,0 +1,4285 @@
+final max info gain=0.1783630791430595, best feature=israel
+
+this node's feature=israel
+generating israel's root.left
+final max info gain=0.04358930304293873, best feature=dyj
+
+this node's feature=dyj
+generating dyj's root.left
+final max info gain=0.2516291673878229, best feature=act
+
+this node's feature=act
+generating act's root.left
+final max info gain=0, best feature=
+
+leaf, path=israel&dyj&act
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating act's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&dyj&!act
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating dyj's root.right
+final max info gain=0.03607394162443639, best feature=jack
+
+this node's feature=jack
+generating jack's root.left
+final max info gain=0.2710382325345574, best feature=why
+
+this node's feature=why
+generating why's root.left
+final max info gain=0.1831497988820473, best feature=are
+
+this node's feature=are
+generating are's root.left
+final max info gain=0.10218717094933338, best feature=about
+
+this node's feature=about
+generating about's root.left
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&jack&why&are&about
+talk.politics.guns=0
+talk.politics.mideast=4
+talk.politics.misc=4
+root's label=talk.politics.mideast
+
+generating about's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&jack&why&are&!about
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating are's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&jack&why&!are
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating why's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&jack&!why
+talk.politics.guns=0
+talk.politics.mideast=5
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating jack's root.right
+final max info gain=0.034599574162548524, best feature=repeated
+
+this node's feature=repeated
+generating repeated's root.left
+final max info gain=0.8112781244591328, best feature=can
+
+this node's feature=can
+generating can's root.left
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&repeated&can
+talk.politics.guns=0
+talk.politics.mideast=6
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating can's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&repeated&!can
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating repeated's root.right
+final max info gain=0.03111979235170484, best feature=amendment
+
+this node's feature=amendment
+generating amendment's root.left
+final max info gain=0.4199730940219749, best feature=america
+
+this node's feature=america
+generating america's root.left
+final max info gain=0.2516291673878229, best feature=abhors
+
+this node's feature=abhors
+generating abhors's root.left
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&amendment&america&abhors
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating abhors's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&amendment&america&!abhors
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating america's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&amendment&!america
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating amendment's root.right
+final max info gain=0.029462632797914362, best feature=musicb
+
+this node's feature=musicb
+generating musicb's root.left
+final max info gain=0.12255624891826566, best feature=bank
+
+this node's feature=bank
+generating bank's root.left
+final max info gain=0.109170338675599, best feature=authority
+
+this node's feature=authority
+generating authority's root.left
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&musicb&bank&authority
+talk.politics.guns=0
+talk.politics.mideast=2
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating authority's root.right
+final max info gain=0.07898214060026854, best feature=accept
+
+this node's feature=accept
+generating accept's root.left
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&musicb&bank&!authority&accept
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating accept's root.right
+final max info gain=0.10218717094933338, best feature=ben
+
+this node's feature=ben
+generating ben's root.left
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&musicb&bank&!authority&!accept&ben
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating ben's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&musicb&bank&!authority&!accept&!ben
+talk.politics.guns=0
+talk.politics.mideast=4
+talk.politics.misc=4
+root's label=talk.politics.mideast
+
+generating bank's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&musicb&!bank
+talk.politics.guns=0
+talk.politics.mideast=4
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating musicb's root.right
+final max info gain=0.028234992986304427, best feature=baker
+
+this node's feature=baker
+generating baker's root.left
+final max info gain=0.31127812445913283, best feature=address
+
+this node's feature=address
+generating address's root.left
+final max info gain=0.2516291673878229, best feature=accumulated
+
+this node's feature=accumulated
+generating accumulated's root.left
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&!musicb&baker&address&accumulated
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating accumulated's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&!musicb&baker&address&!accumulated
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating address's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&!musicb&baker&!address
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating baker's root.right
+final max info gain=0.020457140847312864, best feature=writes
+
+this node's feature=writes
+generating writes's root.left
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&!musicb&!baker&writes
+talk.politics.guns=0
+talk.politics.mideast=224
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating writes's root.right
+final max info gain=0.05603090598736418, best feature=southern
+
+this node's feature=southern
+generating southern's root.left
+final max info gain=0.31127812445913283, best feature=be
+
+this node's feature=be
+generating be's root.left
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&!musicb&!baker&!writes&southern&be
+talk.politics.guns=0
+talk.politics.mideast=4
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating be's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&!musicb&!baker&!writes&southern&!be
+talk.politics.guns=0
+talk.politics.mideast=2
+talk.politics.misc=2
+root's label=talk.politics.mideast
+
+generating southern's root.right
+final max info gain=0.08297127319406641, best feature=annexed
+
+this node's feature=annexed
+generating annexed's root.left
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&!musicb&!baker&!writes&!southern&annexed
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating annexed's root.right
+final max info gain=0, best feature=
+
+leaf, path=israel&!dyj&!jack&!repeated&!amendment&!musicb&!baker&!writes&!southern&!annexed
+talk.politics.guns=0
+talk.politics.mideast=64
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating israel's root.right
+final max info gain=0.15628750790170431, best feature=turkish
+
+this node's feature=turkish
+generating turkish's root.left
+final max info gain=0.09244880015864895, best feature=arromdee
+
+this node's feature=arromdee
+generating arromdee's root.left
+final max info gain=0.17095059445466854, best feature=liar
+
+this node's feature=liar
+generating liar's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&turkish&arromdee&liar
+talk.politics.guns=0
+talk.politics.mideast=6
+talk.politics.misc=6
+root's label=talk.politics.mideast
+
+generating liar's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&turkish&arromdee&!liar
+talk.politics.guns=0
+talk.politics.mideast=3
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating arromdee's root.right
+final max info gain=0.039548763773134196, best feature=acuner
+
+this node's feature=acuner
+generating acuner's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&turkish&!arromdee&acuner
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating acuner's root.right
+final max info gain=0.05128985879995682, best feature=analogous
+
+this node's feature=analogous
+generating analogous's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&turkish&!arromdee&!acuner&analogous
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating analogous's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&turkish&!arromdee&!acuner&!analogous
+talk.politics.guns=0
+talk.politics.mideast=172
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating turkish's root.right
+final max info gain=0.11688062473019878, best feature=gun
+
+this node's feature=gun
+generating gun's root.left
+final max info gain=0.07184469497938906, best feature=homeland
+
+this node's feature=homeland
+generating homeland's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&homeland
+talk.politics.guns=0
+talk.politics.mideast=3
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating homeland's root.right
+final max info gain=0.05782998642558934, best feature=hallam
+
+this node's feature=hallam
+generating hallam's root.left
+final max info gain=0.4257437933026157, best feature=lot
+
+this node's feature=lot
+generating lot's root.left
+final max info gain=0.3166890883150208, best feature=abhors
+
+this node's feature=abhors
+generating abhors's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&hallam&lot&abhors
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating abhors's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&hallam&lot&!abhors
+talk.politics.guns=4
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating lot's root.right
+final max info gain=0.24715018363696709, best feature=accident
+
+this node's feature=accident
+generating accident's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&hallam&!lot&accident
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating accident's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&hallam&!lot&!accident
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=10
+root's label=talk.politics.misc
+
+generating hallam's root.right
+final max info gain=0.046925233089616325, best feature=government
+
+this node's feature=government
+generating government's root.left
+final max info gain=0.11061052655489578, best feature=capital
+
+this node's feature=capital
+generating capital's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&capital
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=5
+root's label=talk.politics.misc
+
+generating capital's root.right
+final max info gain=0.07767809958869332, best feature=define
+
+this node's feature=define
+generating define's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&define
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating define's root.right
+final max info gain=0.08792578641149662, best feature=mob
+
+this node's feature=mob
+generating mob's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&mob
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating mob's root.right
+final max info gain=0.09712230075778105, best feature=bible
+
+this node's feature=bible
+generating bible's root.left
+final max info gain=0.7219280948873623, best feature=abomination
+
+this node's feature=abomination
+generating abomination's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&!mob&bible&abomination
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating abomination's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&!mob&bible&!abomination
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=4
+root's label=talk.politics.misc
+
+generating bible's root.right
+final max info gain=0.11387345360346995, best feature=will
+
+this node's feature=will
+generating will's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&!mob&!bible&will
+talk.politics.guns=38
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating will's root.right
+final max info gain=0.11243731911037746, best feature=acquitted
+
+this node's feature=acquitted
+generating acquitted's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&!mob&!bible&!will&acquitted
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating acquitted's root.right
+final max info gain=0.133170369393246, best feature=nothing
+
+this node's feature=nothing
+generating nothing's root.left
+final max info gain=0.242697256341465, best feature=after
+
+this node's feature=after
+generating after's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&!mob&!bible&!will&!acquitted&nothing&after
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating after's root.right
+final max info gain=0.2516291673878229, best feature=ll
+
+this node's feature=ll
+generating ll's root.left
+final max info gain=0.19087450462110944, best feature=apr
+
+this node's feature=apr
+generating apr's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&!mob&!bible&!will&!acquitted&nothing&!after&ll&apr
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating apr's root.right
+final max info gain=0.17095059445466854, best feature=ever
+
+this node's feature=ever
+generating ever's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&!mob&!bible&!will&!acquitted&nothing&!after&ll&!apr&ever
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.guns
+
+generating ever's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&!mob&!bible&!will&!acquitted&nothing&!after&ll&!apr&!ever
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating ll's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&!mob&!bible&!will&!acquitted&nothing&!after&!ll
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating nothing's root.right
+final max info gain=0.26705513096974043, best feature=lower
+
+this node's feature=lower
+generating lower's root.left
+final max info gain=0.2516291673878229, best feature=about
+
+this node's feature=about
+generating about's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&!mob&!bible&!will&!acquitted&!nothing&lower&about
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating about's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&!mob&!bible&!will&!acquitted&!nothing&lower&!about
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating lower's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&government&!capital&!define&!mob&!bible&!will&!acquitted&!nothing&!lower
+talk.politics.guns=26
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating government's root.right
+final max info gain=0.0548820998452908, best feature=entirely
+
+this node's feature=entirely
+generating entirely's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&!government&entirely
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating entirely's root.right
+final max info gain=0.03977221315442314, best feature=blatantly
+
+this node's feature=blatantly
+generating blatantly's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&!government&!entirely&blatantly
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating blatantly's root.right
+final max info gain=0.04289883773483122, best feature=concept
+
+this node's feature=concept
+generating concept's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&!government&!entirely&!blatantly&concept
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating concept's root.right
+final max info gain=0.0469339701546487, best feature=crack
+
+this node's feature=crack
+generating crack's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&!government&!entirely&!blatantly&!concept&crack
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating crack's root.right
+final max info gain=0.03463804537369164, best feature=janet
+
+this node's feature=janet
+generating janet's root.left
+final max info gain=0.31127812445913283, best feature=against
+
+this node's feature=against
+generating against's root.left
+final max info gain=0.2516291673878229, best feature=about
+
+this node's feature=about
+generating about's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&!government&!entirely&!blatantly&!concept&!crack&janet&against&about
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating about's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&!government&!entirely&!blatantly&!concept&!crack&janet&against&!about
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating against's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&!government&!entirely&!blatantly&!concept&!crack&janet&!against
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating janet's root.right
+final max info gain=0.035274178914437154, best feature=translation
+
+this node's feature=translation
+generating translation's root.left
+final max info gain=0.2916919971380596, best feature=com
+
+this node's feature=com
+generating com's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&!government&!entirely&!blatantly&!concept&!crack&!janet&translation&com
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating com's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&!government&!entirely&!blatantly&!concept&!crack&!janet&translation&!com
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.guns
+
+generating translation's root.right
+final max info gain=0.0437636231174992, best feature=anna
+
+this node's feature=anna
+generating anna's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&!government&!entirely&!blatantly&!concept&!crack&!janet&!translation&anna
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating anna's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&gun&!homeland&!hallam&!government&!entirely&!blatantly&!concept&!crack&!janet&!translation&!anna
+talk.politics.guns=208
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating gun's root.right
+final max info gain=0.07644879758289136, best feature=fbi
+
+this node's feature=fbi
+generating fbi's root.left
+final max info gain=0.09358322280007636, best feature=months
+
+this node's feature=months
+generating months's root.left
+final max info gain=0.3770434857823402, best feature=hand
+
+this node's feature=hand
+generating hand's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&months&hand
+talk.politics.guns=4
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating hand's root.right
+final max info gain=0.23279843755724194, best feature=decisions
+
+this node's feature=decisions
+generating decisions's root.left
+final max info gain=1.0, best feature=must
+
+this node's feature=must
+generating must's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&months&!hand&decisions&must
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating must's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&months&!hand&decisions&!must
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating decisions's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&months&!hand&!decisions
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=23
+root's label=talk.politics.misc
+
+generating months's root.right
+final max info gain=0.10101752240215489, best feature=disclaimer
+
+this node's feature=disclaimer
+generating disclaimer's root.left
+final max info gain=0.22230714724780332, best feature=got
+
+this node's feature=got
+generating got's root.left
+final max info gain=0.5216406363433186, best feature=he
+
+this node's feature=he
+generating he's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&disclaimer&got&he
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating he's root.right
+final max info gain=0.8112781244591328, best feature=according
+
+this node's feature=according
+generating according's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&disclaimer&got&!he&according
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating according's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&disclaimer&got&!he&!according
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating got's root.right
+final max info gain=0.2051099000738689, best feature=abuse
+
+this node's feature=abuse
+generating abuse's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&disclaimer&!got&abuse
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating abuse's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&disclaimer&!got&!abuse
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=15
+root's label=talk.politics.misc
+
+generating disclaimer's root.right
+final max info gain=0.08613817052881279, best feature=arab
+
+this node's feature=arab
+generating arab's root.left
+final max info gain=0.8112781244591328, best feature=involvement
+
+this node's feature=involvement
+generating involvement's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&arab&involvement
+talk.politics.guns=0
+talk.politics.mideast=3
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating involvement's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&arab&!involvement
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating arab's root.right
+final max info gain=0.05593960954577337, best feature=epic
+
+this node's feature=epic
+generating epic's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&epic
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=5
+root's label=talk.politics.misc
+
+generating epic's root.right
+final max info gain=0.0636785608613365, best feature=jim
+
+this node's feature=jim
+generating jim's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&jim
+talk.politics.guns=39
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating jim's root.right
+final max info gain=0.0727868608586344, best feature=place
+
+this node's feature=place
+generating place's root.left
+final max info gain=0.1914332548141935, best feature=absurdity
+
+this node's feature=absurdity
+generating absurdity's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&place&absurdity
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating absurdity's root.right
+final max info gain=0.17917624018867628, best feature=police
+
+this node's feature=police
+generating police's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&place&!absurdity&police
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=5
+root's label=talk.politics.misc
+
+generating police's root.right
+final max info gain=0.2263374827933653, best feature=fact
+
+this node's feature=fact
+generating fact's root.left
+final max info gain=0.5503407095463883, best feature=evidence
+
+this node's feature=evidence
+generating evidence's root.left
+final max info gain=0.8112781244591328, best feature=active
+
+this node's feature=active
+generating active's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&place&!absurdity&!police&fact&evidence&active
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating active's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&place&!absurdity&!police&fact&evidence&!active
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating evidence's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&place&!absurdity&!police&fact&!evidence
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=7
+root's label=talk.politics.misc
+
+generating fact's root.right
+final max info gain=0.360507168527325, best feature=wasn
+
+this node's feature=wasn
+generating wasn's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&place&!absurdity&!police&!fact&wasn
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating wasn's root.right
+final max info gain=0.35335933502142136, best feature=along
+
+this node's feature=along
+generating along's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&place&!absurdity&!police&!fact&!wasn&along
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating along's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&place&!absurdity&!police&!fact&!wasn&!along
+talk.politics.guns=14
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating place's root.right
+final max info gain=0.08133798689241423, best feature=statutes
+
+this node's feature=statutes
+generating statutes's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&statutes
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=4
+root's label=talk.politics.misc
+
+generating statutes's root.right
+final max info gain=0.09242203242734182, best feature=lance
+
+this node's feature=lance
+generating lance's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&!statutes&lance
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=4
+root's label=talk.politics.misc
+
+generating lance's root.right
+final max info gain=0.05541279163019769, best feature=buffalo
+
+this node's feature=buffalo
+generating buffalo's root.left
+final max info gain=0.12808527889139454, best feature=by
+
+this node's feature=by
+generating by's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&!statutes&!lance&buffalo&by
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.guns
+
+generating by's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&!statutes&!lance&buffalo&!by
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating buffalo's root.right
+final max info gain=0.062448409189187815, best feature=disgust
+
+this node's feature=disgust
+generating disgust's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&!statutes&!lance&!buffalo&disgust
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating disgust's root.right
+final max info gain=0.08455304843827038, best feature=if
+
+this node's feature=if
+generating if's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&!statutes&!lance&!buffalo&!disgust&if
+talk.politics.guns=65
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating if's root.right
+final max info gain=0.1741363745690181, best feature=their
+
+this node's feature=their
+generating their's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&!statutes&!lance&!buffalo&!disgust&!if&their
+talk.politics.guns=26
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating their's root.right
+final max info gain=0.22227492910745816, best feature=responsible
+
+this node's feature=responsible
+generating responsible's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&!statutes&!lance&!buffalo&!disgust&!if&!their&responsible
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating responsible's root.right
+final max info gain=0.2151524408123472, best feature=assume
+
+this node's feature=assume
+generating assume's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&!statutes&!lance&!buffalo&!disgust&!if&!their&!responsible&assume
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating assume's root.right
+final max info gain=0.19516472015997882, best feature=larry
+
+this node's feature=larry
+generating larry's root.left
+final max info gain=0.9182958340544896, best feature=according
+
+this node's feature=according
+generating according's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&!statutes&!lance&!buffalo&!disgust&!if&!their&!responsible&!assume&larry&according
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating according's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&!statutes&!lance&!buffalo&!disgust&!if&!their&!responsible&!assume&larry&!according
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating larry's root.right
+final max info gain=0.3095434291503252, best feature=anybody
+
+this node's feature=anybody
+generating anybody's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&!statutes&!lance&!buffalo&!disgust&!if&!their&!responsible&!assume&!larry&anybody
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating anybody's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&fbi&!months&!disclaimer&!arab&!epic&!jim&!place&!statutes&!lance&!buffalo&!disgust&!if&!their&!responsible&!assume&!larry&!anybody
+talk.politics.guns=17
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating fbi's root.right
+final max info gain=0.07909631965152442, best feature=clayton
+
+this node's feature=clayton
+generating clayton's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&clayton
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=108
+root's label=talk.politics.misc
+
+generating clayton's root.right
+final max info gain=0.07750123717283675, best feature=israeli
+
+this node's feature=israeli
+generating israeli's root.left
+final max info gain=0.09426205367196241, best feature=king
+
+this node's feature=king
+generating king's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&israeli&king
+talk.politics.guns=0
+talk.politics.mideast=2
+talk.politics.misc=2
+root's label=talk.politics.mideast
+
+generating king's root.right
+final max info gain=0.08685796213951934, best feature=age
+
+this node's feature=age
+generating age's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&israeli&!king&age
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating age's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&israeli&!king&!age
+talk.politics.guns=0
+talk.politics.mideast=60
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating israeli's root.right
+final max info gain=0.07848420997809735, best feature=muslims
+
+this node's feature=muslims
+generating muslims's root.left
+final max info gain=0.09730035374552387, best feature=absolute
+
+this node's feature=absolute
+generating absolute's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&muslims&absolute
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating absolute's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&muslims&!absolute
+talk.politics.guns=0
+talk.politics.mideast=51
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating muslims's root.right
+final max info gain=0.06577273907999537, best feature=sw
+
+this node's feature=sw
+generating sw's root.left
+final max info gain=0.1312958666556783, best feature=part
+
+this node's feature=part
+generating part's root.left
+final max info gain=0.9709505944546686, best feature=but
+
+this node's feature=but
+generating but's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&sw&part&but
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating but's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&sw&part&!but
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating part's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&sw&!part
+talk.politics.guns=54
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating sw's root.right
+final max info gain=0.05762648424373995, best feature=waco
+
+this node's feature=waco
+generating waco's root.left
+final max info gain=0.13239025528339599, best feature=immediately
+
+this node's feature=immediately
+generating immediately's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&waco&immediately
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=5
+root's label=talk.politics.misc
+
+generating immediately's root.right
+final max info gain=0.13022362265420973, best feature=due
+
+this node's feature=due
+generating due's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&waco&!immediately&due
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=4
+root's label=talk.politics.misc
+
+generating due's root.right
+final max info gain=0.11830738504445731, best feature=latter
+
+this node's feature=latter
+generating latter's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&waco&!immediately&!due&latter
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating latter's root.right
+final max info gain=0.10326130553086416, best feature=on
+
+this node's feature=on
+generating on's root.left
+final max info gain=0.15109697051711368, best feature=austin
+
+this node's feature=austin
+generating austin's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&waco&!immediately&!due&!latter&on&austin
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating austin's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&waco&!immediately&!due&!latter&on&!austin
+talk.politics.guns=45
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating on's root.right
+final max info gain=0.25069320107514903, best feature=disclaimer
+
+this node's feature=disclaimer
+generating disclaimer's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&waco&!immediately&!due&!latter&!on&disclaimer
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating disclaimer's root.right
+final max info gain=0.1874674880534477, best feature=we
+
+this node's feature=we
+generating we's root.left
+final max info gain=0.31668908831502096, best feature=it
+
+this node's feature=it
+generating it's root.left
+final max info gain=0.3219280948873623, best feature=absurd
+
+this node's feature=absurd
+generating absurd's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&waco&!immediately&!due&!latter&!on&!disclaimer&we&it&absurd
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.guns
+
+generating absurd's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&waco&!immediately&!due&!latter&!on&!disclaimer&we&it&!absurd
+talk.politics.guns=6
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating it's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&waco&!immediately&!due&!latter&!on&!disclaimer&we&!it
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating we's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&waco&!immediately&!due&!latter&!on&!disclaimer&!we
+talk.politics.guns=11
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating waco's root.right
+final max info gain=0.05794582693685779, best feature=pay
+
+this node's feature=pay
+generating pay's root.left
+final max info gain=0.11550690711467582, best feature=one
+
+this node's feature=one
+generating one's root.left
+final max info gain=0.10559103637519526, best feature=angell
+
+this node's feature=angell
+generating angell's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&pay&one&angell
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating angell's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&pay&one&!angell
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=71
+root's label=talk.politics.misc
+
+generating one's root.right
+final max info gain=0.34742601632129155, best feature=federal
+
+this node's feature=federal
+generating federal's root.left
+final max info gain=0.5916727785823275, best feature=be
+
+this node's feature=be
+generating be's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&pay&!one&federal&be
+talk.politics.guns=6
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating be's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&pay&!one&federal&!be
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating federal's root.right
+final max info gain=0.3298460702071465, best feature=period
+
+this node's feature=period
+generating period's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&pay&!one&!federal&period
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating period's root.right
+final max info gain=0.20559250818508304, best feature=forwarded
+
+this node's feature=forwarded
+generating forwarded's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&pay&!one&!federal&!period&forwarded
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating forwarded's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&pay&!one&!federal&!period&!forwarded
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=30
+root's label=talk.politics.misc
+
+generating pay's root.right
+final max info gain=0.05326597643730535, best feature=jews
+
+this node's feature=jews
+generating jews's root.left
+final max info gain=0.3207737659867179, best feature=cult
+
+this node's feature=cult
+generating cult's root.left
+final max info gain=0.31976006206417584, best feature=alone
+
+this node's feature=alone
+generating alone's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&jews&cult&alone
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.guns
+
+generating alone's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&jews&cult&!alone
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=5
+root's label=talk.politics.misc
+
+generating cult's root.right
+final max info gain=0.1576002768551643, best feature=themselves
+
+this node's feature=themselves
+generating themselves's root.left
+final max info gain=0.5577277787393193, best feature=aimed
+
+this node's feature=aimed
+generating aimed's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&jews&!cult&themselves&aimed
+talk.politics.guns=0
+talk.politics.mideast=3
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating aimed's root.right
+final max info gain=0.37744375108173434, best feature=actually
+
+this node's feature=actually
+generating actually's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&jews&!cult&themselves&!aimed&actually
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating actually's root.right
+final max info gain=0.31127812445913283, best feature=apologists
+
+this node's feature=apologists
+generating apologists's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&jews&!cult&themselves&!aimed&!actually&apologists
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating apologists's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&jews&!cult&themselves&!aimed&!actually&!apologists
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating themselves's root.right
+final max info gain=0.135763282930394, best feature=qk
+
+this node's feature=qk
+generating qk's root.left
+final max info gain=0.2516291673878229, best feature=a
+
+this node's feature=a
+generating a's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&jews&!cult&!themselves&qk&a
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating a's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&jews&!cult&!themselves&qk&!a
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating qk's root.right
+final max info gain=0.10929773588431746, best feature=adultary
+
+this node's feature=adultary
+generating adultary's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&jews&!cult&!themselves&!qk&adultary
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating adultary's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&jews&!cult&!themselves&!qk&!adultary
+talk.politics.guns=0
+talk.politics.mideast=43
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating jews's root.right
+final max info gain=0.04035691533216035, best feature=beyer
+
+this node's feature=beyer
+generating beyer's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&beyer
+talk.politics.guns=0
+talk.politics.mideast=18
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating beyer's root.right
+final max info gain=0.040374607186170364, best feature=arab
+
+this node's feature=arab
+generating arab's root.left
+final max info gain=0.19555334819207626, best feature=t
+
+this node's feature=t
+generating t's root.left
+final max info gain=0.3435794213678427, best feature=with
+
+this node's feature=with
+generating with's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&arab&t&with
+talk.politics.guns=0
+talk.politics.mideast=5
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating with's root.right
+final max info gain=0.12808527889139454, best feature=bigots
+
+this node's feature=bigots
+generating bigots's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&arab&t&!with&bigots
+talk.politics.guns=0
+talk.politics.mideast=3
+talk.politics.misc=3
+root's label=talk.politics.mideast
+
+generating bigots's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&arab&t&!with&!bigots
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating t's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&arab&!t
+talk.politics.guns=0
+talk.politics.mideast=14
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating arab's root.right
+final max info gain=0.0395569437577008, best feature=guns
+
+this node's feature=guns
+generating guns's root.left
+final max info gain=0.30462329286192047, best feature=above
+
+this node's feature=above
+generating above's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&guns&above
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=9
+root's label=talk.politics.misc
+
+generating above's root.right
+final max info gain=0.27732090440253154, best feature=warrant
+
+this node's feature=warrant
+generating warrant's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&guns&!above&warrant
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=5
+root's label=talk.politics.misc
+
+generating warrant's root.right
+final max info gain=0.17738993912568413, best feature=watch
+
+this node's feature=watch
+generating watch's root.left
+final max info gain=1.0, best feature=amendment
+
+this node's feature=amendment
+generating amendment's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&guns&!above&!warrant&watch&amendment
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating amendment's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&guns&!above&!warrant&watch&!amendment
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating watch's root.right
+final max info gain=0.1536877959439529, best feature=after
+
+this node's feature=after
+generating after's root.left
+final max info gain=0.44643934467101554, best feature=crime
+
+this node's feature=crime
+generating crime's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&guns&!above&!warrant&!watch&after&crime
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating crime's root.right
+final max info gain=0.2935644431995964, best feature=affect
+
+this node's feature=affect
+generating affect's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&guns&!above&!warrant&!watch&after&!crime&affect
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating affect's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&guns&!above&!warrant&!watch&after&!crime&!affect
+talk.politics.guns=6
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating after's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&guns&!above&!warrant&!watch&!after
+talk.politics.guns=38
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating guns's root.right
+final max info gain=0.031412906410325014, best feature=kaldis
+
+this node's feature=kaldis
+generating kaldis's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&kaldis
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=29
+root's label=talk.politics.misc
+
+generating kaldis's root.right
+final max info gain=0.03121778562236699, best feature=arms
+
+this node's feature=arms
+generating arms's root.left
+final max info gain=0.470318566046672, best feature=difference
+
+this node's feature=difference
+generating difference's root.left
+final max info gain=0.3059584928680418, best feature=above
+
+this node's feature=above
+generating above's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&arms&difference&above
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating above's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&arms&difference&!above
+talk.politics.guns=0
+talk.politics.mideast=5
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating difference's root.right
+final max info gain=0.22033846156380327, best feature=connections
+
+this node's feature=connections
+generating connections's root.left
+final max info gain=0.31127812445913294, best feature=appears
+
+this node's feature=appears
+generating appears's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&arms&!difference&connections&appears
+talk.politics.guns=1
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating appears's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&arms&!difference&connections&!appears
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating connections's root.right
+final max info gain=0.1441756336518655, best feature=appear
+
+this node's feature=appear
+generating appear's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&arms&!difference&!connections&appear
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating appear's root.right
+final max info gain=0.21639693245126468, best feature=access
+
+this node's feature=access
+generating access's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&arms&!difference&!connections&!appear&access
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating access's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&arms&!difference&!connections&!appear&!access
+talk.politics.guns=28
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating arms's root.right
+final max info gain=0.03363464791965831, best feature=we
+
+this node's feature=we
+generating we's root.left
+final max info gain=0.04363364040248241, best feature=iran
+
+this node's feature=iran
+generating iran's root.left
+final max info gain=0.31127812445913283, best feature=enough
+
+this node's feature=enough
+generating enough's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&iran&enough
+talk.politics.guns=0
+talk.politics.mideast=2
+talk.politics.misc=2
+root's label=talk.politics.mideast
+
+generating enough's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&iran&!enough
+talk.politics.guns=0
+talk.politics.mideast=4
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating iran's root.right
+final max info gain=0.046735396150360264, best feature=using
+
+this node's feature=using
+generating using's root.left
+final max info gain=0.13003339973035105, best feature=applying
+
+this node's feature=applying
+generating applying's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&using&applying
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating applying's root.right
+final max info gain=0.19143325481419346, best feature=aj
+
+this node's feature=aj
+generating aj's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&using&!applying&aj
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating aj's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&using&!applying&!aj
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=33
+root's label=talk.politics.misc
+
+generating using's root.right
+final max info gain=0.048821151541454055, best feature=turks
+
+this node's feature=turks
+generating turks's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&turks
+talk.politics.guns=0
+talk.politics.mideast=4
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating turks's root.right
+final max info gain=0.04631771268069573, best feature=how
+
+this node's feature=how
+generating how's root.left
+final max info gain=0.12890510863535642, best feature=age
+
+this node's feature=age
+generating age's root.left
+final max info gain=0.8112781244591328, best feature=as
+
+this node's feature=as
+generating as's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&how&age&as
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating as's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&how&age&!as
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating age's root.right
+final max info gain=0.13834616949872636, best feature=beans
+
+this node's feature=beans
+generating beans's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&how&!age&beans
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating beans's root.right
+final max info gain=0.12569345614478472, best feature=article
+
+this node's feature=article
+generating article's root.left
+final max info gain=0.10442758345346967, best feature=air
+
+this node's feature=air
+generating air's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&how&!age&!beans&article&air
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating air's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&how&!age&!beans&article&!air
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=46
+root's label=talk.politics.misc
+
+generating article's root.right
+final max info gain=0.24643811790819092, best feature=might
+
+this node's feature=might
+generating might's root.left
+final max info gain=0.9709505944546686, best feature=for
+
+this node's feature=for
+generating for's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&how&!age&!beans&!article&might&for
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating for's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&how&!age&!beans&!article&might&!for
+talk.politics.guns=0
+talk.politics.mideast=2
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating might's root.right
+final max info gain=0.2225376262215476, best feature=defined
+
+this node's feature=defined
+generating defined's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&how&!age&!beans&!article&!might&defined
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating defined's root.right
+final max info gain=0.3737359095258586, best feature=in
+
+this node's feature=in
+generating in's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&how&!age&!beans&!article&!might&!defined&in
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=14
+root's label=talk.politics.misc
+
+generating in's root.right
+final max info gain=0.9709505944546686, best feature=because
+
+this node's feature=because
+generating because's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&how&!age&!beans&!article&!might&!defined&!in&because
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating because's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&how&!age&!beans&!article&!might&!defined&!in&!because
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating how's root.right
+final max info gain=0.06907281886780603, best feature=still
+
+this node's feature=still
+generating still's root.left
+final max info gain=0.3227569588973983, best feature=aap
+
+this node's feature=aap
+generating aap's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&still&aap
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating aap's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&still&!aap
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=16
+root's label=talk.politics.misc
+
+generating still's root.right
+final max info gain=0.07673501812601624, best feature=c
+
+this node's feature=c
+generating c's root.left
+final max info gain=0.21671479121952353, best feature=this
+
+this node's feature=this
+generating this's root.left
+final max info gain=0.4461881574050116, best feature=means
+
+this node's feature=means
+generating means's root.left
+final max info gain=0.32192809488736196, best feature=act
+
+this node's feature=act
+generating act's root.left
+final max info gain=0.31127812445913294, best feature=about
+
+this node's feature=about
+generating about's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&c&this&means&act&about
+talk.politics.guns=1
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating about's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&c&this&means&act&!about
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating act's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&c&this&means&!act
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating means's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&c&this&!means
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=25
+root's label=talk.politics.misc
+
+generating this's root.right
+final max info gain=0.3051585985360452, best feature=their
+
+this node's feature=their
+generating their's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&c&!this&their
+talk.politics.guns=5
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating their's root.right
+final max info gain=0.3948950998563653, best feature=will
+
+this node's feature=will
+generating will's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&c&!this&!their&will
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=6
+root's label=talk.politics.misc
+
+generating will's root.right
+final max info gain=0.5487949406953985, best feature=be
+
+this node's feature=be
+generating be's root.left
+final max info gain=0.31127812445913283, best feature=actually
+
+this node's feature=actually
+generating actually's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&c&!this&!their&!will&be&actually
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating actually's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&c&!this&!their&!will&be&!actually
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating be's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&c&!this&!their&!will&!be
+talk.politics.guns=4
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating c's root.right
+final max info gain=0.10108469988456315, best feature=going
+
+this node's feature=going
+generating going's root.left
+final max info gain=0.4689955935892812, best feature=adam
+
+this node's feature=adam
+generating adam's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&going&adam
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating adam's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&going&!adam
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=9
+root's label=talk.politics.misc
+
+generating going's root.right
+final max info gain=0.09351908750684768, best feature=later
+
+this node's feature=later
+generating later's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&later
+talk.politics.guns=5
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating later's root.right
+final max info gain=0.07794013578907388, best feature=must
+
+this node's feature=must
+generating must's root.left
+final max info gain=0.8453509366224367, best feature=i
+
+this node's feature=i
+generating i's root.left
+final max info gain=0.5435644431995964, best feature=abuse
+
+this node's feature=abuse
+generating abuse's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&must&i&abuse
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating abuse's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&must&i&!abuse
+talk.politics.guns=0
+talk.politics.mideast=7
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating i's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&must&!i
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating must's root.right
+final max info gain=0.12668725006832626, best feature=question
+
+this node's feature=question
+generating question's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&question
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=6
+root's label=talk.politics.misc
+
+generating question's root.right
+final max info gain=0.11774172770798863, best feature=go
+
+this node's feature=go
+generating go's root.left
+final max info gain=0.31127812445913283, best feature=all
+
+this node's feature=all
+generating all's root.left
+final max info gain=0.2516291673878229, best feature=adultary
+
+this node's feature=adultary
+generating adultary's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&go&all&adultary
+talk.politics.guns=0
+talk.politics.mideast=2
+talk.politics.misc=2
+root's label=talk.politics.mideast
+
+generating adultary's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&go&all&!adultary
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating all's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&go&!all
+talk.politics.guns=0
+talk.politics.mideast=2
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating go's root.right
+final max info gain=0.14995482179334085, best feature=bush
+
+this node's feature=bush
+generating bush's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&bush
+talk.politics.guns=0
+talk.politics.mideast=3
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating bush's root.right
+final max info gain=0.12401054325055183, best feature=knows
+
+this node's feature=knows
+generating knows's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&knows
+talk.politics.guns=0
+talk.politics.mideast=2
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating knows's root.right
+final max info gain=0.12752187165772466, best feature=any
+
+this node's feature=any
+generating any's root.left
+final max info gain=0.5503407095463884, best feature=about
+
+this node's feature=about
+generating about's root.left
+final max info gain=0.5487949406953982, best feature=by
+
+this node's feature=by
+generating by's root.left
+final max info gain=0.41997309402197514, best feature=abundance
+
+this node's feature=abundance
+generating abundance's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&any&about&by&abundance
+talk.politics.guns=1
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating abundance's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&any&about&by&!abundance
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating by's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&any&about&!by
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating about's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&any&!about
+talk.politics.guns=0
+talk.politics.mideast=3
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating any's root.right
+final max info gain=0.18717625687320827, best feature=ana
+
+this node's feature=ana
+generating ana's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&!any&ana
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating ana's root.right
+final max info gain=0.16715678748009255, best feature=internet
+
+this node's feature=internet
+generating internet's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&!any&!ana&internet
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=4
+root's label=talk.politics.misc
+
+generating internet's root.right
+final max info gain=0.11271663672563392, best feature=reduce
+
+this node's feature=reduce
+generating reduce's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&!any&!ana&!internet&reduce
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating reduce's root.right
+final max info gain=0.14408665633378215, best feature=if
+
+this node's feature=if
+generating if's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&!any&!ana&!internet&!reduce&if
+talk.politics.guns=7
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating if's root.right
+final max info gain=0.15120982163070518, best feature=in
+
+this node's feature=in
+generating in's root.left
+final max info gain=0.21114574906025385, best feature=was
+
+this node's feature=was
+generating was's root.left
+final max info gain=0.31976006206417584, best feature=happen
+
+this node's feature=happen
+generating happen's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&!any&!ana&!internet&!reduce&!if&in&was&happen
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.guns
+
+generating happen's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&!any&!ana&!internet&!reduce&!if&in&was&!happen
+talk.politics.guns=5
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating was's root.right
+final max info gain=0.31127812445913283, best feature=com
+
+this node's feature=com
+generating com's root.left
+final max info gain=0.31127812445913283, best feature=by
+
+this node's feature=by
+generating by's root.left
+final max info gain=0.2516291673878229, best feature=actually
+
+this node's feature=actually
+generating actually's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&!any&!ana&!internet&!reduce&!if&in&!was&com&by&actually
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating actually's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&!any&!ana&!internet&!reduce&!if&in&!was&com&by&!actually
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating by's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&!any&!ana&!internet&!reduce&!if&in&!was&com&!by
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating com's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&!any&!ana&!internet&!reduce&!if&in&!was&!com
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=4
+root's label=talk.politics.misc
+
+generating in's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&we&!iran&!using&!turks&!how&!still&!c&!going&!later&!must&!question&!go&!bush&!knows&!any&!ana&!internet&!reduce&!if&!in
+talk.politics.guns=4
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating we's root.right
+final max info gain=0.05628007559439241, best feature=weapons
+
+this node's feature=weapons
+generating weapons's root.left
+final max info gain=0.27492592707267705, best feature=d
+
+this node's feature=d
+generating d's root.left
+final max info gain=1.0, best feature=get
+
+this node's feature=get
+generating get's root.left
+final max info gain=1.0, best feature=al
+
+this node's feature=al
+generating al's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&weapons&d&get&al
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating al's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&weapons&d&get&!al
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating get's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&weapons&d&!get
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating d's root.right
+final max info gain=0.24229218908241482, best feature=amerika
+
+this node's feature=amerika
+generating amerika's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&weapons&!d&amerika
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating amerika's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&weapons&!d&!amerika
+talk.politics.guns=24
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating weapons's root.right
+final max info gain=0.0477471062333501, best feature=fact
+
+this node's feature=fact
+generating fact's root.left
+final max info gain=0.29658066978328723, best feature=dan
+
+this node's feature=dan
+generating dan's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&fact&dan
+talk.politics.guns=4
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating dan's root.right
+final max info gain=0.15770869916495506, best feature=a
+
+this node's feature=a
+generating a's root.left
+final max info gain=0.19590927087360493, best feature=aej
+
+this node's feature=aej
+generating aej's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&fact&!dan&a&aej
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating aej's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&fact&!dan&a&!aej
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=32
+root's label=talk.politics.misc
+
+generating a's root.right
+final max info gain=0.9182958340544896, best feature=it
+
+this node's feature=it
+generating it's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&fact&!dan&!a&it
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating it's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&fact&!dan&!a&!it
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating fact's root.right
+final max info gain=0.04305586852398258, best feature=compound
+
+this node's feature=compound
+generating compound's root.left
+final max info gain=0.5435644431995964, best feature=children
+
+this node's feature=children
+generating children's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&compound&children
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating children's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&compound&!children
+talk.politics.guns=14
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating compound's root.right
+final max info gain=0.03636314106484506, best feature=racism
+
+this node's feature=racism
+generating racism's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&racism
+talk.politics.guns=0
+talk.politics.mideast=9
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating racism's root.right
+final max info gain=0.03868610959635155, best feature=alfalfa
+
+this node's feature=alfalfa
+generating alfalfa's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&alfalfa
+talk.politics.guns=0
+talk.politics.mideast=9
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating alfalfa's root.right
+final max info gain=0.03562438813595947, best feature=uic
+
+this node's feature=uic
+generating uic's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&uic
+talk.politics.guns=8
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating uic's root.right
+final max info gain=0.03338605682074869, best feature=mr
+
+this node's feature=mr
+generating mr's root.left
+final max info gain=0.40282718781138394, best feature=again
+
+this node's feature=again
+generating again's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&mr&again
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=6
+root's label=talk.politics.misc
+
+generating again's root.right
+final max info gain=0.2919918733834891, best feature=cso
+
+this node's feature=cso
+generating cso's root.left
+final max info gain=1.0, best feature=areas
+
+this node's feature=areas
+generating areas's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&mr&!again&cso&areas
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating areas's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&mr&!again&cso&!areas
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating cso's root.right
+final max info gain=0.1977525145454384, best feature=state
+
+this node's feature=state
+generating state's root.left
+final max info gain=0.9182958340544896, best feature=abdication
+
+this node's feature=abdication
+generating abdication's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&mr&!again&!cso&state&abdication
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating abdication's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&mr&!again&!cso&state&!abdication
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating state's root.right
+final max info gain=0.3227569588973983, best feature=belongs
+
+this node's feature=belongs
+generating belongs's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&mr&!again&!cso&!state&belongs
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating belongs's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&mr&!again&!cso&!state&!belongs
+talk.politics.guns=0
+talk.politics.mideast=16
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating mr's root.right
+final max info gain=0.034520362630253265, best feature=their
+
+this node's feature=their
+generating their's root.left
+final max info gain=0.1363474725026972, best feature=from
+
+this node's feature=from
+generating from's root.left
+final max info gain=0.2343590156227977, best feature=was
+
+this node's feature=was
+generating was's root.left
+final max info gain=0.37123232664087563, best feature=before
+
+this node's feature=before
+generating before's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&from&was&before
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating before's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&from&was&!before
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=13
+root's label=talk.politics.misc
+
+generating was's root.right
+final max info gain=0.43675789121774233, best feature=s
+
+this node's feature=s
+generating s's root.left
+final max info gain=0.3599841823548945, best feature=any
+
+this node's feature=any
+generating any's root.left
+final max info gain=0.46956521111470706, best feature=apr
+
+this node's feature=apr
+generating apr's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&from&!was&s&any&apr
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating apr's root.right
+final max info gain=0.32192809488736196, best feature=against
+
+this node's feature=against
+generating against's root.left
+final max info gain=0.31127812445913294, best feature=about
+
+this node's feature=about
+generating about's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&from&!was&s&any&!apr&against&about
+talk.politics.guns=1
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating about's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&from&!was&s&any&!apr&against&!about
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating against's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&from&!was&s&any&!apr&!against
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating any's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&from&!was&s&!any
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=6
+root's label=talk.politics.misc
+
+generating s's root.right
+final max info gain=0.6500224216483541, best feature=been
+
+this node's feature=been
+generating been's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&from&!was&!s&been
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating been's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&from&!was&!s&!been
+talk.politics.guns=0
+talk.politics.mideast=5
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating from's root.right
+final max info gain=0.11381010281274573, best feature=be
+
+this node's feature=be
+generating be's root.left
+final max info gain=0.4854607607459134, best feature=did
+
+this node's feature=did
+generating did's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&!from&be&did
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating did's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&!from&be&!did
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=17
+root's label=talk.politics.misc
+
+generating be's root.right
+final max info gain=0.19800662206851982, best feature=what
+
+this node's feature=what
+generating what's root.left
+final max info gain=0.5435644431995964, best feature=after
+
+this node's feature=after
+generating after's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&!from&!be&what&after
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating after's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&!from&!be&what&!after
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=7
+root's label=talk.politics.misc
+
+generating what's root.right
+final max info gain=0.22600024438491662, best feature=with
+
+this node's feature=with
+generating with's root.left
+final max info gain=0.23645279766002802, best feature=or
+
+this node's feature=or
+generating or's root.left
+final max info gain=0.20443400292496494, best feature=against
+
+this node's feature=against
+generating against's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&!from&!be&!what&with&or&against
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.guns
+
+generating against's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&!from&!be&!what&with&or&!against
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating or's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&!from&!be&!what&with&!or
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating with's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&their&!from&!be&!what&!with
+talk.politics.guns=4
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating their's root.right
+final max info gain=0.04512331179559892, best feature=clinton
+
+this node's feature=clinton
+generating clinton's root.left
+final max info gain=0.5387264790523525, best feature=free
+
+this node's feature=free
+generating free's root.left
+final max info gain=0.7219280948873623, best feature=betz
+
+this node's feature=betz
+generating betz's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&clinton&free&betz
+talk.politics.guns=4
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating betz's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&clinton&free&!betz
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating free's root.right
+final max info gain=0.24988229283318547, best feature=appreciate
+
+this node's feature=appreciate
+generating appreciate's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&clinton&!free&appreciate
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating appreciate's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&clinton&!free&!appreciate
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=23
+root's label=talk.politics.misc
+
+generating clinton's root.right
+final max info gain=0.04211826639166727, best feature=michael
+
+this node's feature=michael
+generating michael's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&michael
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=9
+root's label=talk.politics.misc
+
+generating michael's root.right
+final max info gain=0.036852827661348675, best feature=considered
+
+this node's feature=considered
+generating considered's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&considered
+talk.politics.guns=6
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating considered's root.right
+final max info gain=0.036600800020474944, best feature=policy
+
+this node's feature=policy
+generating policy's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&policy
+talk.politics.guns=0
+talk.politics.mideast=6
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating policy's root.right
+final max info gain=0.03904959383748996, best feature=fourd
+
+this node's feature=fourd
+generating fourd's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&fourd
+talk.politics.guns=0
+talk.politics.mideast=6
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating fourd's root.right
+final max info gain=0.04092582263580424, best feature=problem
+
+this node's feature=problem
+generating problem's root.left
+final max info gain=0.5408520829727552, best feature=so
+
+this node's feature=so
+generating so's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&problem&so
+talk.politics.guns=0
+talk.politics.mideast=8
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating so's root.right
+final max info gain=0.31127812445913283, best feature=about
+
+this node's feature=about
+generating about's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&problem&!so&about
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating about's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&problem&!so&!about
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating problem's root.right
+final max info gain=0.03634564434163523, best feature=years
+
+this node's feature=years
+generating years's root.left
+final max info gain=0.33457428291836666, best feature=you
+
+this node's feature=you
+generating you's root.left
+final max info gain=0.3948950998563654, best feature=edu
+
+this node's feature=edu
+generating edu's root.left
+final max info gain=0.45810589515712374, best feature=seen
+
+this node's feature=seen
+generating seen's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&years&you&edu&seen
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating seen's root.right
+final max info gain=0.3059584928680418, best feature=and
+
+this node's feature=and
+generating and's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&years&you&edu&!seen&and
+talk.politics.guns=0
+talk.politics.mideast=5
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating and's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&years&you&edu&!seen&!and
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating edu's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&years&you&!edu
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=5
+root's label=talk.politics.misc
+
+generating you's root.right
+final max info gain=0.6500224216483541, best feature=actually
+
+this node's feature=actually
+generating actually's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&years&!you&actually
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating actually's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&years&!you&!actually
+talk.politics.guns=0
+talk.politics.mideast=5
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating years's root.right
+final max info gain=0.04516938992969277, best feature=was
+
+this node's feature=was
+generating was's root.left
+final max info gain=0.13717550595461447, best feature=email
+
+this node's feature=email
+generating email's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&email
+talk.politics.guns=0
+talk.politics.mideast=3
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating email's root.right
+final max info gain=0.09395650478794426, best feature=making
+
+this node's feature=making
+generating making's root.left
+final max info gain=0.31127812445913283, best feature=a
+
+this node's feature=a
+generating a's root.left
+final max info gain=0.2516291673878229, best feature=absolutely
+
+this node's feature=absolutely
+generating absolutely's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&making&a&absolutely
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating absolutely's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&making&a&!absolutely
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating a's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&making&!a
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating making's root.right
+final max info gain=0.09779988943274498, best feature=themselves
+
+this node's feature=themselves
+generating themselves's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&themselves
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=4
+root's label=talk.politics.misc
+
+generating themselves's root.right
+final max info gain=0.1000052189388334, best feature=paid
+
+this node's feature=paid
+generating paid's root.left
+final max info gain=0.31127812445913283, best feature=again
+
+this node's feature=again
+generating again's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&paid&again
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating again's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&paid&!again
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating paid's root.right
+final max info gain=0.13840829952710787, best feature=if
+
+this node's feature=if
+generating if's root.left
+final max info gain=0.19558676452483725, best feature=you
+
+this node's feature=you
+generating you's root.left
+final max info gain=0.37123232664087563, best feature=abuse
+
+this node's feature=abuse
+generating abuse's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&if&you&abuse
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating abuse's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&if&you&!abuse
+talk.politics.guns=13
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating you's root.right
+final max info gain=0.49314157471996234, best feature=by
+
+this node's feature=by
+generating by's root.left
+final max info gain=0.4199730940219749, best feature=message
+
+this node's feature=message
+generating message's root.left
+final max info gain=0.2516291673878229, best feature=announcing
+
+this node's feature=announcing
+generating announcing's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&if&!you&by&message&announcing
+talk.politics.guns=1
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating announcing's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&if&!you&by&message&!announcing
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating message's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&if&!you&by&!message
+talk.politics.guns=0
+talk.politics.mideast=2
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating by's root.right
+final max info gain=0.4591479170272448, best feature=and
+
+this node's feature=and
+generating and's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&if&!you&!by&and
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating and's root.right
+final max info gain=0.2516291673878229, best feature=about
+
+this node's feature=about
+generating about's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&if&!you&!by&!and&about
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating about's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&if&!you&!by&!and&!about
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating if's root.right
+final max info gain=0.19114991182341012, best feature=his
+
+this node's feature=his
+generating his's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&!if&his
+talk.politics.guns=6
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating his's root.right
+final max info gain=0.17750734516946143, best feature=my
+
+this node's feature=my
+generating my's root.left
+final max info gain=0.5435644431995964, best feature=apologize
+
+this node's feature=apologize
+generating apologize's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&!if&!his&my&apologize
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating apologize's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&!if&!his&my&!apologize
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=7
+root's label=talk.politics.misc
+
+generating my's root.right
+final max info gain=0.1454054481059629, best feature=anyone
+
+this node's feature=anyone
+generating anyone's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&!if&!his&!my&anyone
+talk.politics.guns=3
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating anyone's root.right
+final max info gain=0.1546249654505779, best feature=of
+
+this node's feature=of
+generating of's root.left
+final max info gain=0.1831497988820473, best feature=is
+
+this node's feature=is
+generating is's root.left
+final max info gain=0.10218717094933338, best feature=it
+
+this node's feature=it
+generating it's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&!if&!his&!my&!anyone&of&is&it
+talk.politics.guns=4
+talk.politics.mideast=0
+talk.politics.misc=4
+root's label=talk.politics.guns
+
+generating it's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&!if&!his&!my&!anyone&of&is&!it
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating is's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&!if&!his&!my&!anyone&of&!is
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating of's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&was&!email&!making&!themselves&!paid&!if&!his&!my&!anyone&!of
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating was's root.right
+final max info gain=0.0872710769738545, best feature=that
+
+this node's feature=that
+generating that's root.left
+final max info gain=0.12833177235800286, best feature=may
+
+this node's feature=may
+generating may's root.left
+final max info gain=0.46956521111470695, best feature=many
+
+this node's feature=many
+generating many's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&may&many
+talk.politics.guns=4
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating many's root.right
+final max info gain=0.4671199542230635, best feature=concern
+
+this node's feature=concern
+generating concern's root.left
+final max info gain=0.2516291673878229, best feature=aaron
+
+this node's feature=aaron
+generating aaron's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&may&!many&concern&aaron
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating aaron's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&may&!many&concern&!aaron
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating concern's root.right
+final max info gain=0.3059584928680418, best feature=adl
+
+this node's feature=adl
+generating adl's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&may&!many&!concern&adl
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating adl's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&may&!many&!concern&!adl
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=5
+root's label=talk.politics.misc
+
+generating may's root.right
+final max info gain=0.13917256432894032, best feature=if
+
+this node's feature=if
+generating if's root.left
+final max info gain=0.34758988139079694, best feature=all
+
+this node's feature=all
+generating all's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&if&all
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=9
+root's label=talk.politics.misc
+
+generating all's root.right
+final max info gain=0.4613123025696, best feature=but
+
+this node's feature=but
+generating but's root.left
+final max info gain=0.7219280948873623, best feature=affect
+
+this node's feature=affect
+generating affect's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&if&!all&but&affect
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating affect's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&if&!all&but&!affect
+talk.politics.guns=0
+talk.politics.mideast=4
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating but's root.right
+final max info gain=0.6058021490143459, best feature=and
+
+this node's feature=and
+generating and's root.left
+final max info gain=0.5916727785823275, best feature=armed
+
+this node's feature=armed
+generating armed's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&if&!all&!but&and&armed
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating armed's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&if&!all&!but&and&!armed
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=6
+root's label=talk.politics.misc
+
+generating and's root.right
+final max info gain=0.9182958340544896, best feature=article
+
+this node's feature=article
+generating article's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&if&!all&!but&!and&article
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating article's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&if&!all&!but&!and&!article
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating if's root.right
+final max info gain=0.13285542741044143, best feature=many
+
+this node's feature=many
+generating many's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&!if&many
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=5
+root's label=talk.politics.misc
+
+generating many's root.right
+final max info gain=0.107017306917089, best feature=far
+
+this node's feature=far
+generating far's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&!if&!many&far
+talk.politics.guns=0
+talk.politics.mideast=5
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating far's root.right
+final max info gain=0.19930073883696342, best feature=com
+
+this node's feature=com
+generating com's root.left
+final max info gain=0.5032583347756457, best feature=action
+
+this node's feature=action
+generating action's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&!if&!many&!far&com&action
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating action's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&!if&!many&!far&com&!action
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=8
+root's label=talk.politics.misc
+
+generating com's root.right
+final max info gain=0.19469155493902235, best feature=t
+
+this node's feature=t
+generating t's root.left
+final max info gain=0.2916919971380596, best feature=they
+
+this node's feature=they
+generating they's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&!if&!many&!far&!com&t&they
+talk.politics.guns=0
+talk.politics.mideast=2
+talk.politics.misc=2
+root's label=talk.politics.mideast
+
+generating they's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&!if&!many&!far&!com&t&!they
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating t's root.right
+final max info gain=0.3502090290998973, best feature=m
+
+this node's feature=m
+generating m's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&!if&!many&!far&!com&!t&m
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating m's root.right
+final max info gain=0.3372900666170139, best feature=baked
+
+this node's feature=baked
+generating baked's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&!if&!many&!far&!com&!t&!m&baked
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating baked's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&that&!may&!if&!many&!far&!com&!t&!m&!baked
+talk.politics.guns=0
+talk.politics.mideast=15
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating that's root.right
+final max info gain=0.08445491082059675, best feature=should
+
+this node's feature=should
+generating should's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&should
+talk.politics.guns=0
+talk.politics.mideast=3
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating should's root.right
+final max info gain=0.08072306215388259, best feature=yet
+
+this node's feature=yet
+generating yet's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&yet
+talk.politics.guns=5
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating yet's root.right
+final max info gain=0.0726976418932459, best feature=guy
+
+this node's feature=guy
+generating guy's root.left
+final max info gain=0.31127812445913283, best feature=edu
+
+this node's feature=edu
+generating edu's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&guy&edu
+talk.politics.guns=0
+talk.politics.mideast=2
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating edu's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&guy&!edu
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=1
+root's label=talk.politics.mideast
+
+generating guy's root.right
+final max info gain=0.08884714448188591, best feature=message
+
+this node's feature=message
+generating message's root.left
+final max info gain=0.8112781244591328, best feature=as
+
+this node's feature=as
+generating as's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&message&as
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.misc
+
+generating as's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&message&!as
+talk.politics.guns=0
+talk.politics.mideast=3
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating message's root.right
+final max info gain=0.09315606558493994, best feature=ac
+
+this node's feature=ac
+generating ac's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&ac
+talk.politics.guns=0
+talk.politics.mideast=2
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating ac's root.right
+final max info gain=0.08537639459579394, best feature=c
+
+this node's feature=c
+generating c's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&c
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=4
+root's label=talk.politics.misc
+
+generating c's root.right
+final max info gain=0.07571104515431881, best feature=time
+
+this node's feature=time
+generating time's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&time
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating time's root.right
+final max info gain=0.08802356627438845, best feature=o
+
+this node's feature=o
+generating o's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&o
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating o's root.right
+final max info gain=0.10399614072164987, best feature=virginia
+
+this node's feature=virginia
+generating virginia's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&virginia
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=3
+root's label=talk.politics.misc
+
+generating virginia's root.right
+final max info gain=0.08169668983616973, best feature=address
+
+this node's feature=address
+generating address's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&address
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating address's root.right
+final max info gain=0.09378433834008804, best feature=here
+
+this node's feature=here
+generating here's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&!address&here
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating here's root.right
+final max info gain=0.1123260205591805, best feature=and
+
+this node's feature=and
+generating and's root.left
+final max info gain=0.19920821651474474, best feature=after
+
+this node's feature=after
+generating after's root.left
+final max info gain=0.9182958340544894, best feature=about
+
+this node's feature=about
+generating about's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&!address&!here&and&after&about
+talk.politics.guns=1
+talk.politics.mideast=0
+talk.politics.misc=1
+root's label=talk.politics.guns
+
+generating about's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&!address&!here&and&after&!about
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating after's root.right
+final max info gain=0.19843231803921402, best feature=alien
+
+this node's feature=alien
+generating alien's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&!address&!here&and&!after&alien
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating alien's root.right
+final max info gain=0.3227569588973983, best feature=anon
+
+this node's feature=anon
+generating anon's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&!address&!here&and&!after&!alien&anon
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=0
+root's label=talk.politics.mideast
+
+generating anon's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&!address&!here&and&!after&!alien&!anon
+talk.politics.guns=16
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating and's root.right
+final max info gain=0.14339080881725597, best feature=but
+
+this node's feature=but
+generating but's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&!address&!here&!and&but
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating but's root.right
+final max info gain=0.18905266854301606, best feature=deleted
+
+this node's feature=deleted
+generating deleted's root.left
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&!address&!here&!and&!but&deleted
+talk.politics.guns=0
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating deleted's root.right
+final max info gain=0.17095059445466876, best feature=of
+
+this node's feature=of
+generating of's root.left
+final max info gain=0.31127812445913283, best feature=in
+
+this node's feature=in
+generating in's root.left
+final max info gain=1.0, best feature=away
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&!address&!here&!and&!but&!deleted&of&in
+talk.politics.guns=2
+talk.politics.mideast=0
+talk.politics.misc=2
+root's label=talk.politics.guns
+
+generating in's root.right
+final max info gain=0, best feature=
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&!address&!here&!and&!but&!deleted&of&!in
+talk.politics.guns=4
+talk.politics.mideast=0
+talk.politics.misc=0
+root's label=talk.politics.guns
+
+generating of's root.right
+final max info gain=0.5408520829727552, best feature=this
+
+this node's feature=this
+generating this's root.left
+final max info gain=0.9182958340544896, best feature=an
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&!address&!here&!and&!but&!deleted&!of&this
+talk.politics.guns=0
+talk.politics.mideast=1
+talk.politics.misc=2
+root's label=talk.politics.misc
+
+generating this's root.right
+final max info gain=0.19715972342414934, best feature=just
+
+leaf, path=!israel&!turkish&!gun&!fbi&!clayton&!israeli&!muslims&!sw&!waco&!pay&!jews&!beyer&!arab&!guns&!kaldis&!arms&!we&!weapons&!fact&!compound&!racism&!alfalfa&!uic&!mr&!their&!clinton&!michael&!considered&!policy&!fourd&!problem&!years&!was&!that&!should&!yet&!guy&!message&!ac&!c&!time&!o&!virginia&!address&!here&!and&!but&!deleted&!of&!this
+talk.politics.guns=6
+talk.politics.mideast=3
+talk.politics.misc=0
+root's label=talk.politics.guns
+
